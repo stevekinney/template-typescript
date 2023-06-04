@@ -23,5 +23,5 @@
     "tsBuildInfoFile": "./.cache/tsconfig.tsbuildinfo",
     "useDefineForClassFields": true
   },
-  "include": ["src"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.json"]
 }

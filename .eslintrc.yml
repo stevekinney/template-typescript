@@ -1,0 +1,22 @@
+env:
+  browser: true
+  es2021: true
+  node: true
+extends: prettier
+overrides:
+  - extends:
+      - prettier
+    files:
+      - '*.ts'
+      - '*.tsx'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+rules: {}
+ignorePatterns:
+  - .github
+  - .nyc_output
+  - .vscode
+  - coverage
+  - dist
+  - node_modules
