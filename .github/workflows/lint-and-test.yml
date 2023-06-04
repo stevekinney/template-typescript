@@ -34,7 +34,7 @@ jobs:
       - name: Checkout and Setup Node
         uses: ./.github/actions/checkout-and-setup
       - name: Check Types
-        run: pnpm run check
+        run: pnpm run --if-present check
   unit-tests:
     runs-on: ubuntu-latest
     steps:
@@ -43,3 +43,11 @@ jobs:
         uses: ./.github/actions/checkout-and-setup
       - name: Run Unit Tests
         run: pnpm test
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Checkout and Setup Node
+        uses: ./.github/actions/checkout-and-setup
+      - name: Check Types
+        run: pnpm run --if-present check
