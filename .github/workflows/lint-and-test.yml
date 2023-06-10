@@ -1,4 +1,4 @@
-name: Run Tests, Lint, and Check Types
+name: Run Tests, Lint, and Build
 
 on:
   push:
