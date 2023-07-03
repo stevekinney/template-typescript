@@ -32,7 +32,7 @@
     "@vitest/coverage-c8": "^0.32.0",
     "@vitest/ui": "^0.32.0",
     "commitlint": "^17.6.5",
-    "eslint": "^8.42.0",
+    "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "esno": "^0.16.3",
     "husky": "^8.0.3",
