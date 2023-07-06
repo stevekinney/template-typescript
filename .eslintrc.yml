@@ -7,7 +7,6 @@ parser: '@typescript-eslint/parser'
 extends:
   - plugin:@typescript-eslint/recommended
   - prettier
-  - eslint-config-postcss
 plugins:
   - '@typescript-eslint'
 parserOptions:
