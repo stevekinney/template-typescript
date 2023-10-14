@@ -27,11 +27,11 @@
   "devDependencies": {
     "@logux/eslint-config": "^52.0.1",
     "@total-typescript/ts-reset": "^0.5.1",
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.7.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
     "@vitest/coverage-c8": "^0.32.4",
     "@vitest/ui": "^0.34.6",
-    "commitlint": "^17.7.2",
+    "commitlint": "^17.8.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "esno": "^0.17.0",
@@ -41,5 +41,12 @@
     "typescript": "^5.2.2",
     "vite": "^4.4.11",
     "vitest": "0.34.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "semver@<5.7.2": ">=5.7.2",
+      "semver@>=6.0.0 <6.3.1": ">=6.3.1",
+      "get-func-name@<2.0.1": ">=2.0.1"
+    }
   }
 }
