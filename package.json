@@ -25,22 +25,22 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@logux/eslint-config": "^52.0.1",
+    "@logux/eslint-config": "^52.0.2",
     "@total-typescript/ts-reset": "^0.5.1",
-    "@typescript-eslint/eslint-plugin": "^6.7.5",
-    "@typescript-eslint/parser": "^6.7.5",
-    "@vitest/coverage-c8": "^0.32.4",
-    "@vitest/ui": "^0.34.6",
-    "commitlint": "^17.8.0",
-    "eslint": "^8.51.0",
-    "eslint-config-prettier": "^9.0.0",
-    "esno": "^0.17.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "@vitest/coverage-v8": "^1.0.2",
+    "@vitest/ui": "^1.0.2",
+    "commitlint": "^18.4.3",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "esno": "^4.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.11",
-    "vitest": "0.34.6"
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7",
+    "vitest": "1.0.2"
   },
   "pnpm": {
     "overrides": {
